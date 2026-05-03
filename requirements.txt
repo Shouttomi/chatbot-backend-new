@@ -1,0 +1,16 @@
+fastapi>=0.135
+uvicorn>=0.42
+gunicorn>=23.0; sys_platform != "win32"
+sqlalchemy>=2.0
+pymysql>=1.1
+cryptography>=46.0
+python-dotenv>=1.2
+rapidfuzz>=3.14
+openai>=2.30
+pydantic>=2.12
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart>=0.0.22
+# sentence-transformers, transformers, faiss-cpu removed — disabled in code (Python 3.13 incompatible)
+requests>=2.31
+cerebras-cloud-sdk>=1.67

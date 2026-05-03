@@ -1,0 +1,71 @@
+# ── Virtual environments ────────────────────────────────────────────
+env/
+venv/
+.venv/
+
+# ── Secrets ─────────────────────────────────────────────────────────
+.env
+
+# ── Python cache ─────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── IDE / OS ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ── Logs & runtime files ──────────────────────────────────────────────
+*.log
+logs.json
+chat_history.json
+chatbot_reqres.log
+
+# ── Test artifacts & reports ──────────────────────────────────────────
+chatbot_100_test_report.json
+chatbot_test_log.json
+chatbot_test_results.json
+debug_out.json
+final_regression.json
+final_test.json
+full_test_final.json
+test_results_raw.json
+db_check.json
+detail_check.json
+
+# ── SQL dumps ─────────────────────────────────────────────────────────
+*.sql
+
+# ── Misc generated ────────────────────────────────────────────────────
+tmp_magna.txt
+
+# ── Ollama runtime & models (local dev only, not for deployment) ───────
+ollama/
+models/
+
+# ── Windows setup scripts (not needed on Linux/Render) ────────────────
+*.ps1
+*.bat
+
+# ── Test files ────────────────────────────────────────────────────────
+big_test.py
+chatbot_test.py
+edge_test.py
+quick_chatbot_test.py
+stress_test.py
+test500.py
+test_chatbot_comprehensive.py
+test_connection.py
+test_supervisor.py
+llm_bench.py
+chatbot_test_log.md
+chatbot_edge_cases.md
+CHATBOT_TEST_REPORT.md
+
+# ── Claude dev tool ───────────────────────────────────────────────────
+.claude/settings.local.json
+
